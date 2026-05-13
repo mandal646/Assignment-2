@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.nav1{
+    height: 100px;
+    width: 100%;
+}
+.nav1 h1{
+    font-size: 50px;
+    text-align: center;
+}
+.nav1 .divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.divider span{
+    width: 90px;
+    height: 2px;
+    background: #ff9000;
+    box-shadow: 0 0 8px #ff9000;
+}
+.divider .icon{
+    font-size: 22px;
+    text-shadow: 0 0 10px #ff9000;
+}
+.section-1{
+    height: 40%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    height: 300px;
+    width: 200px;
+    background: #0f0f0f;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid #ffb300;
+    box-shadow:
+                0 0 5px #ffb300 
+                0 0 10px #ffb300;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.section-1 .content{
+    text-align: center;
+}
+.section-1 .content .heading{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.section-1 .content p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.section-1 .content .line{
+    width: 60px;
+    height: 1px;
+    background:#ffb300;
+    margin: 7px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #ffb300;
+}
+.section-1 .content .rupees{
+    color: rgb(244, 189, 5);
+    font-weight: 600;
+    margin-top: 5px;
+}
+.section-2{
+    height: 35%;
+    width: 100%;
+    background: #0f0f0f;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid #111;
+    box-shadow: 0 0 0 1px #0f0f0f;
+    position: relative;
+    
+}
+.section-2 img{
+    height: 270px;
+    border-radius: 20px;
+    position: absolute;
+    left: 5%;
+}
+.section-2 .content{
+    position: absolute;
+    left: 40%;
+}
+.section-2 .content h3{
+    color: #ff9000;
+    font-weight: 400;
+}
+.section-2 .content h1{
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+}
+.section-2 .content .p1{
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.section-2 .content .p2{
+    font-weight: 100;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.section-2 .content button{
+    padding: 16px 45px;
+    font-size: 17px;
+    background: transparent;
+    color: #ffb300;
+    border: 2px solid #ffb300;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.section-2 .content button:hover{
+    color: #0f0f0f;
+    background-color: #ff9000;
+}
+footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+footer nav .part1{
+    font-weight: 100;
+}
+footer nav .part2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+footer nav .part2 li a{
+    text-decoration: none;
+    font-weight: 100;
+    color: #fff;
+}
+footer nav .part2 li a:hover{
+    color: #ff9000;
+    transition: all ease 0.3s;
+}
+footer nav .part3{
+    display: flex;
+    align-self: center;
+    gap: 30px;
+    list-style: none;
+    
+}
+footer nav .part3 li a{
+    text-decoration: none;
+    font-weight: 100;
+    color: #ffb300;
+    border: 1px solid #ff9000;
+    border-radius: 50%;
+    padding: 5px;
+}
+footer nav .part3 .follow:hover{
+      color: #ff9000;
+      cursor: pointer;
+      transition: all 0.3 ease;
+}
