@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.container .left{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    position: relative;
+}
+.container .left .nav1{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 40px;
+}
+.container .left .nav1 .search{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eeeeee;
+    font-size: 17px;
+}
+.content{
+    position: absolute;
+    position: relative;
+}
+.content h1{
+    font-size: 70px;
+    font-style: italic;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-top: 200px;
+}
+.content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    left: 40%;
+    margin-top: 60px;
+}
+.content ul li {
+    font-weight: bold;
+    font-size: 17px;
+}
+.content ul li span{
+    font-weight: 100;
+}
+.container .right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(122, 26, 26);
+    position: relative;
+    color: #fff;
+}
+.container .right .nav2{
+    padding: 40px;
+}
+.container .right .nav2 ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.nav2 ul li a:hover{
+    color: bisque;
+    transition: all 0.5s ease;
+}
+.right img{
+    height: 100px;
+}
+.right h1{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-weight: 100;
+}
+.right img{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.right .line{
+    height: 1px;
+    width: 120px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 47%;
+    left: 45%;
+    transform: rotate(90deg);
+}
+.right .h-1{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    text-align: end;
+    font-weight: 100;
+}
+.right .h-2{
+    position: absolute;
+    top: 47%;
+    left: 55%;
+    text-align: end;
+    font-weight: 100;
+}
+.right .h-3{
+    position: absolute;
+    top: 54%;
+    left: 55%;
+    text-align: end;
+    font-weight: 100;
+}
+.right h2{
+    font-size: 40px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-weight: 100;
+}
+
+.right .p1{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+.right .p2{
+    position: absolute;
+    top: 74%;
+    left: 40%;
+}
+.right button{
+    padding: 15px 35px;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    cursor: pointer;
+    }
+.right button:hover{
+    color: bisque;
+    background-color: #111;
+    transition: all 0.5s ease;
+}    
+.container .main-img{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    height: 400px;
+}    

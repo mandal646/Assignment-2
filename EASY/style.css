@@ -89,6 +89,10 @@ nav button:hover{
     border-radius: 20px;
     overflow: hidden;
 }
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
 
 .card img{
     width: 100%;
